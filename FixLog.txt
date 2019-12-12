@@ -1,0 +1,89 @@
+This is a fix log file for
+the Insight Journal paper: http://hdl.handle.net/10380/3393
+After each spotted issue, the source code has been resubmitted.
+
+Issues:
+
+1. Date: 15 Feb 2013
+BUG: Serious one. Due to the copy paste typo the image function was not properly defined.
+Only m_StartContinuousIndex has been used instead m_StartContinuousIndex and m_EndContinuousIndex.
+
+2. Date: 22 Jan 2015
+ENH: The source code has been merged with elastix commit, see http://elastix.isi.uu.nl/news.php
+
+3. Date: 17 Feb 2015
+ENH: Another minor merge with elastix.
+
+4. Date: 18 Jan 2016
+ENH: Another minor merge with elastix.
+
+  The fallowing tests (listed below) are failing on CPU due to the bug introduced in ITK (v4.9rc03) in BSpline transform.
+  Someone please investigate this crash on CPU in BSplineTransform::InsideValidRegion()
+  The original code that worked was if(index[j] == maxLimit), in ITK latest replaced by if(Math::AlmostEquals( index[j], maxLimit ))
+  The fail tests are:
+
+  GPUResampleImageFilterTest-NearestNeighborComboTranslationAffineBSplineEulerSimilarity-3D_UNEVEN (Failed)
+  GPUResampleImageFilterTest-LinearComboTranslationAffineBSplineEulerSimilarity-3D_UNEVEN (Failed)
+  GPUResampleImageFilterTest-BSplineComboTranslationAffineBSplineEulerSimilarity-3D_UNEVEN (Failed)
+
+5. Date: 07 Apr 2016
+PERF: Major merge with elastix to fix the performance drop with BSpline interpolator. The elastix commit log:
+
+  Fixing the performance issue with ResampleImageFilter when BSpline interpolator is used.
+  Note: This issue does not affect the elastix users directly. So, if you not are interested, you could stop reading.
+  This issue will appear only when you are using the itkGPUResampleImageFilter outside of elastix.
+  Examples are in the original Insight Journal paper http://hdl.handle.net/10380/3393
+
+  This performance issue will happen when you are using GPUResampleImageFilter on the images of the same types (except float).
+  The elastix designed to use float as internal pixel type, therefore this issue will not be seen.
+  But, if you are using GPUResampleImageFilter to resample short -> short images, you will get performance drop.
+
+  When you perform GPUResampleImageFilter on (short->short) with BSplineInterpolateImageFunction.
+  Internally the BSplineDecompositionImageFilter will be used to calculate the B-Spline coefficients of an image.
+  This BSplineDecompositionImageFilter will perform on short->float mode.
+
+  Now, back into the August 01, 2014, revision 1594 on dikkopsijs, I've introduced the new design for
+  factory classes. This new factories solved number of design problems with original ITK factory design.
+  I've checked that all unit tests are running. But did not notice that performance dropped for the number of them.
+  The tests with BSpline interpolator dropped in performance to only 2-3 speed up.
+  The reason was that BSplineDecompositionImageFilter was not running on GPU, but instead very silently on CPU.
+  But everything works, you just don't get same speed up anymore.
+
+  Later March 2016, I tried to reproduce my tests for http://hdl.handle.net/10380/3393 with NVidia 980 Ti card.
+  There I've noticed this performance drop. Since that was not clear when that happens, I've used bisect method to search for commit.
+  The fix was easy, I just have to introduce one more factory registration for
+  BSplineDecompositionImageFilter<UserType, float> to get it back to shape.
+
+  We need to add speed up factors to the tests on the dedicated dashboards machines.
+  The end. Maybe...
+
+6. Date: 11 Apr 2016
+  We identified the problem with ITK BSplineTransform::InsideValidRegion() implementation.
+  The serious bug was introduced with adding if(Math::AlmostEquals( index[j], maxLimit ))
+  We are working to solve it and provide the ITK with patch. Coming soon...
+
+7. Date: 12 Apr 2016
+  Added directory test_logs. This directory contains some of the log files of original article
+  execution times as well as most recent. Overall, I am kind of `fine` with recent performance.
+  Not really impressed, but could accept it for now. The BSpline interpolator has extra 1.0 sec
+  comparing to end of the 2013. There are RMS errors differences as well.
+  The code has changed a lot since then. I don't have time to investigate. You are welcome. Go ahead!
+  
+8. Date: 20 Apr 2016
+  COMP: fixed compilation on linux
+
+9. Date: 25 May 2016
+  BUG: ITK bug with BSplineTransform::InsideValidRegion() has been fixed in ITK 4.10.0
+  See bug report https://issues.itk.org/jira/browse/ITK-3425
+  The reviews on proposed fix: 
+  http://review.source.kitware.com/#/c/21156/
+  http://review.source.kitware.com/#/c/21157/
+
+10. Date: 20 Apr 2016
+  COMP: fixed compilation for the incoming ITK 4.10
+
+11. Date: 25 Oct 2017
+  The code has been checked for latest (ITK 4.12.2, 25 Oct 2017) with CUDA/v8.0 (NVidia driver 378.49) and Intel OpenCL SDK version=7.0.0.2519 on CPU.
+
+Regards,
+Denis P. Shamonin

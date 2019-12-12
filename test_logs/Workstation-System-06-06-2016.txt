@@ -1,0 +1,85 @@
+OS Name	Microsoft Windows 7 Professional
+Version	6.1.7601 Service Pack 1 Build 7601
+Other OS Description 	Not Available
+OS Manufacturer	Microsoft Corporation
+System Manufacturer	Hewlett-Packard
+System Model	HP Z440 Workstation
+System Type	x64-based PC
+Processor	Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, 3501 Mhz, 4 Core(s), 8 Logical Processor(s)
+BIOS Version/Date	Hewlett-Packard M60 v01.53, 4/2/2015
+SMBIOS Version	2.8
+Windows Directory	C:\windows
+System Directory	C:\windows\system32
+Boot Device	\Device\HarddiskVolume2
+Hardware Abstraction Layer	Version = "6.1.7601.17514"
+Installed Physical Memory (RAM)	64.0 GB
+Total Physical Memory	63.9 GB
+Available Physical Memory	56.0 GB
+Total Virtual Memory	64.9 GB
+Available Virtual Memory	58.4 GB
+Page File Space	0.98 GB
+Page File	C:\pagefile.sys
+
+[Display]
+
+Operating System:	Windows 7 Professional, 64-bit (Service Pack 1)
+DirectX version:	11.0 
+GPU processor:		GeForce GTX 980 Ti
+Driver version:		364.72
+Direct3D API version:	11
+Direct3D feature level:	11_1
+CUDA Cores:		2816 
+Core clock:		1190 MHz 
+Memory data rate:	7200 MHz
+Memory interface:	384-bit 
+Memory bandwidth:	345.60 GB/s
+Total available graphics memory:	38609 MB
+Dedicated video memory:	6144 MB GDDR5
+System video memory:	0 MB
+Shared system memory:	32465 MB
+Video BIOS version:	84.00.36.00.81
+IRQ:			Not used
+Bus:			PCI Express x16 Gen3
+Device Id:		10DE 17C8 855B1043
+Part Number:		G600 0030
+GPU processor:		NVS 310
+Driver version:		364.72
+Direct3D API version:	11
+Direct3D feature level:	11_0
+CUDA Cores:		48 
+Core clock:		523 MHz 
+Shader clock:		1046 MHz
+Memory data rate:	1750 MHz
+Memory interface:	64-bit 
+Memory bandwidth:	14.00 GB/s
+Total available graphics memory:	4095 MB
+Dedicated video memory:	512 MB DDR3
+System video memory:	0 MB
+Shared system memory:	3583 MB
+Video BIOS version:	75.19.85.00.03
+IRQ:			Not used
+Bus:			PCI Express x16 Gen2
+Device Id:		10DE 107D 094E103C
+Part Number:		2014 0501
+
+[Components]
+
+nvui.dll		8.17.13.6472		NVIDIA User Experience Driver Component
+nvxdsync.exe		8.17.13.6472		NVIDIA User Experience Driver Component
+nvxdplcy.dll		8.17.13.6472		NVIDIA User Experience Driver Component
+nvxdbat.dll		8.17.13.6472		NVIDIA User Experience Driver Component
+nvxdapix.dll		8.17.13.6472		NVIDIA User Experience Driver Component
+NVCPL.DLL		8.17.13.6472		NVIDIA User Experience Driver Component
+nvCplUIR.dll		8.1.810.0		NVIDIA Control Panel
+nvCplUI.exe		8.1.810.0		NVIDIA Control Panel
+nvWSSR.dll		6.14.13.6472		NVIDIA Workstation Server
+nvWSS.dll		6.14.13.6472		NVIDIA Workstation Server
+nvViTvSR.dll		6.14.13.6472		NVIDIA Video Server
+nvViTvS.dll		6.14.13.6472		NVIDIA Video Server
+nvLicensingS.dll		6.14.13.6472		NVIDIA Licensing Server
+nvDispSR.dll		6.14.13.6472		NVIDIA Display Server
+NVMCTRAY.DLL		8.17.13.6472		NVIDIA Media Center Library
+nvDispS.dll		6.14.13.6472		NVIDIA Display Server
+NVCUDA.DLL		6.14.13.6472		NVIDIA CUDA 8.0.0 driver
+nvGameSR.dll		6.14.13.6472		NVIDIA 3D Settings Server
+nvGameS.dll		6.14.13.6472		NVIDIA 3D Settings Server

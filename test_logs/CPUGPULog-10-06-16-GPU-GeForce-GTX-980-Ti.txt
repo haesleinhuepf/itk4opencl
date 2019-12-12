@@ -1,0 +1,213 @@
+Filter Name ; Dimension ; Image Size ; CPU(8) (s) ; GPU (s) ; CPU/GPU Speed Ratio ; RMS Error ; RMS Relative ; Test Passed ; Run Times ; Comments
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0142267 ; 0.195898 ; 0.0726228 ; 2.60685e-005 ; 6.64077e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0156491 ; 0.174954 ; 0.0894466 ; 2.60685e-005 ; 6.64077e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0139532 ; 0.179211 ; 0.0778589 ; 2.60685e-005 ; 6.64077e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0136597 ; 0.187563 ; 0.0728275 ; 3.31295e-005 ; 8.4344e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0147612 ; 0.178621 ; 0.08264 ; 3.31295e-005 ; 8.4344e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 2 ; 256x256 ; 0.0133905 ; 0.197005 ; 0.0679705 ; 3.31295e-005 ; 8.4344e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.0963662 ; 0.239722 ; 0.401991 ; 0.000767519 ; 7.46115e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.085712 ; 0.244225 ; 0.350955 ; 0.000767519 ; 7.46115e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.0916007 ; 0.244535 ; 0.374591 ; 0.000767519 ; 7.46115e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.083317 ; 0.217407 ; 0.383232 ; 0.000712792 ; 6.93788e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.0862288 ; 0.247886 ; 0.347857 ; 0.000712792 ; 6.93788e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 100x100x100 ; 0.0848308 ; 0.218897 ; 0.387537 ; 0.000712792 ; 6.93788e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.156071 ; 0.296668 ; 0.52608 ; 0.00107029 ; 1.88079e-006 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.163519 ; 0.277909 ; 0.588391 ; 0.00107029 ; 1.88079e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.16186 ; 0.260882 ; 0.620433 ; 0.00107029 ; 1.88079e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.147364 ; 0.268064 ; 0.549734 ; 0.000335644 ; 5.93543e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.149081 ; 0.299999 ; 0.496939 ; 0.000335644 ; 5.93543e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 115x157x129 ; 0.15665 ; 0.26324 ; 0.595082 ; 0.000335644 ; 5.93543e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 0.965248 ; 0.814923 ; 1.18447 ; 0.00112492 ; 1.02338e-006 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 1.02205 ; 0.849772 ; 1.20274 ; 0.00112492 ; 1.02338e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 1.02787 ; 0.893268 ; 1.15068 ; 0.00112492 ; 1.02338e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 0.960832 ; 0.79934 ; 1.20203 ; 0.00102846 ; 9.3511e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 0.933913 ; 0.772296 ; 1.20927 ; 0.00102846 ; 9.3511e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 256x256x256 ; 0.942996 ; 0.791026 ; 1.19212 ; 0.00102846 ; 9.3511e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.60476 ; 2.58452 ; 1.78167 ; 0.00110694 ; 1.55713e-006 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.54504 ; 2.51668 ; 1.80597 ; 0.00110694 ; 1.55713e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.58798 ; 2.33887 ; 1.96162 ; 0.00110694 ; 1.55713e-006 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(Off)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.35185 ; 2.24864 ; 1.93533 ; 0.000413438 ; 5.81447e-007 ; Yes ; 1 ; RescaleSchedule(Off), SmoothingSchedule(On), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.58495 ; 2.42242 ; 1.89271 ; 0.000413438 ; 5.81447e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(Off), ShrinkImageFilter(On)
+GenericMultiResolutionPyramidImageFilter ; 3 ; 512x512x256 ; 4.34347 ; 2.60644 ; 1.66644 ; 0.000413438 ; 5.81447e-007 ; Yes ; 1 ; RescaleSchedule(On), SmoothingSchedule(On), ShrinkImageFilter(On)
+RecursiveGaussianImageFilter ; 1 ; 512 ; 0.000109434 ; 0.169073 ; 0.000647258 ; 8.90044e-007 ; 1.45186e-005 ; Yes ; 1 ; none
+RecursiveGaussianImageFilter ; 2 ; 256x256 ; 0.00174856 ; 0.167378 ; 0.0104468 ; 9.42724e-007 ; 3.77426e-005 ; Yes ; 1 ; none
+RecursiveGaussianImageFilter ; 3 ; 100x100x100 ; 0.016166 ; 0.179979 ; 0.0898213 ; 4.66424e-008 ; 5.18309e-005 ; Yes ; 1 ; none
+RecursiveGaussianImageFilter ; 3 ; 115x157x129 ; 0.0219393 ; 0.170164 ; 0.12893 ; 2.01679e-007 ; 0.000117376 ; Yes ; 1 ; none
+RecursiveGaussianImageFilter ; 3 ; 256x256x256 ; 0.110814 ; 0.2276 ; 0.486879 ; 1.47366e-007 ; 0.000161972 ; Yes ; 1 ; none
+RecursiveGaussianImageFilter ; 3 ; 512x512x256 ; 0.305946 ; 0.416016 ; 0.735419 ; 4.23163e-006 ; 0.00216772 ; Yes ; 1 ; none
+SmoothingRecursiveGaussianImageFilter ; 2 ; 256x256 ; 0.00415921 ; 0.170801 ; 0.0243513 ; 7.21902e-005 ; 1.83639e-006 ; Yes ; 1 ; none
+SmoothingRecursiveGaussianImageFilter ; 3 ; 100x100x100 ; 0.0268326 ; 0.185105 ; 0.144958 ; 7.48692e-005 ; 6.78245e-008 ; Yes ; 1 ; none
+SmoothingRecursiveGaussianImageFilter ; 3 ; 115x157x129 ; 0.0635681 ; 0.209344 ; 0.303654 ; 0.000207375 ; 3.62762e-007 ; Yes ; 1 ; none
+SmoothingRecursiveGaussianImageFilter ; 3 ; 256x256x256 ; 0.353878 ; 0.382935 ; 0.924123 ; 0.000309225 ; 2.82685e-007 ; Yes ; 1 ; none
+SmoothingRecursiveGaussianImageFilter ; 3 ; 512x512x256 ; 1.38275 ; 0.807405 ; 1.71258 ; 0.00392028 ; 7.6568e-006 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 1 ; 512 ; 5.81741e-005 ; 0.170322 ; 0.000341553 ; 1.87167e-006 ; 1.03365e-007 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 2 ; 256x256 ; 0.00673318 ; 0.188673 ; 0.035687 ; 1.0356e-005 ; 2.20233e-007 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 3 ; 100x100x100 ; 0.0787079 ; 0.179235 ; 0.439132 ; 0.000393193 ; 3.3836e-007 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 3 ; 115x157x129 ; 0.143805 ; 0.188329 ; 0.763586 ; 0.00022202 ; 3.66918e-007 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 3 ; 256x256x256 ; 1.61037 ; 0.290349 ; 5.54634 ; 0.000359814 ; 3.19561e-007 ; Yes ; 1 ; none
+BSplineDecompositionImageFilter ; 3 ; 512x512x256 ; 8.49821 ; 0.546578 ; 15.548 ; 0.00026381 ; 3.70549e-007 ; Yes ; 1 ; none
+CastImageFilter ; 1 ; 512 ; 0.00121331 ; 0.00130439 ; 0.930177 ; 0 ; 0 ; Yes ; 1 ; none
+CastImageFilter ; 2 ; 256x256 ; 0.00114393 ; 0.00264215 ; 0.432954 ; 0 ; 0 ; Yes ; 1 ; none
+CastImageFilter ; 3 ; 100x100x100 ; 0.00432229 ; 0.00994515 ; 0.434613 ; 0 ; 0 ; Yes ; 1 ; none
+CastImageFilter ; 3 ; 115x157x129 ; 0.00730729 ; 0.0214818 ; 0.340163 ; 0 ; 0 ; Yes ; 1 ; none
+CastImageFilter ; 3 ; 256x256x256 ; 0.0226943 ; 0.0941045 ; 0.241161 ; 0 ; 0 ; Yes ; 1 ; none
+CastImageFilter ; 3 ; 512x512x256 ; 0.109703 ; 0.299734 ; 0.366 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 1 ; 512 ; 0.00135183 ; 0.00163341 ; 0.827616 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 2 ; 256x256 ; 0.00126076 ; 0.00215149 ; 0.585993 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 3 ; 100x100x100 ; 0.00213003 ; 0.00333166 ; 0.63933 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 3 ; 115x157x129 ; 0.00300288 ; 0.00399303 ; 0.75203 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 3 ; 256x256x256 ; 0.0165234 ; 0.0178633 ; 0.924991 ; 0 ; 0 ; Yes ; 1 ; none
+ShrinkImageFilter ; 3 ; 512x512x256 ; 0.0389698 ; 0.0592866 ; 0.657311 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 1 ; 512 ; 1.04904e-005 ; 0.0103524 ; 0.00101333 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 2 ; 256x256 ; 5.24521e-006 ; 0.0122795 ; 0.000427151 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 3 ; 100x100x100 ; 1.16825e-005 ; 0.00913692 ; 0.00127861 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 3 ; 115x157x129 ; 7.86781e-006 ; 0.0136869 ; 0.000574843 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 3 ; 256x256x256 ; 5.00679e-006 ; 0.00681376 ; 0.000734805 ; 0 ; 0 ; Yes ; 1 ; none
+GPUBSplineTransform ; 3 ; 512x512x256 ; 8.82149e-006 ; 0.00706482 ; 0.00124865 ; 0 ; 0 ; Yes ; 1 ; none
+ResampleImageFilter ; 1 ; 512 ; 0.00112033 ; 0.00523782 ; 0.213892 ; 1.75568 ; 0.108557 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.00132322 ; 0.00598335 ; 0.221151 ; 3.05691 ; 0.0620394 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.00928831 ; 0.0063026 ; 1.47373 ; 40.1706 ; 0.0432278 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0179341 ; 0.01089 ; 1.64684 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.096101 ; 0.0442455 ; 2.172 ; 28.0873 ; 0.029503 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.257982 ; 0.131857 ; 1.95653 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00121903 ; 0.00316048 ; 0.385712 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.00131297 ; 0.00429153 ; 0.305944 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0109348 ; 0.00719547 ; 1.51968 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0252607 ; 0.0101295 ; 2.49379 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.140854 ; 0.0568514 ; 2.47758 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.41004 ; 0.168201 ; 2.4378 ; 0.183727 ; 0.000282131 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00125551 ; 0.179191 ; 0.00700656 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.0131602 ; 0.190123 ; 0.0692195 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.1717 ; 0.201307 ; 0.852926 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.387793 ; 0.198275 ; 1.95584 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 2.76296 ; 0.358732 ; 7.70203 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 13.6234 ; 0.755629 ; 18.0293 ; 0.230022 ; 0.000346896 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : TranslationTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00106573 ; 0.00600648 ; 0.17743 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.00159407 ; 0.00352168 ; 0.452644 ; 1.69626 ; 0.0344888 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0122066 ; 0.0074687 ; 1.63436 ; 1.10657 ; 0.00118937 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0167525 ; 0.0165746 ; 1.01073 ; 3.74098 ; 0.00546751 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.0885222 ; 0.0313511 ; 2.82358 ; 2.37327 ; 0.00250319 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.313718 ; 0.145 ; 2.16356 ; 7.9269 ; 0.0125182 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00100541 ; 0.00333023 ; 0.301904 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.00166774 ; 0.006073 ; 0.274615 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0178077 ; 0.0100069 ; 1.77954 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0222139 ; 0.00950289 ; 2.3376 ; 0.0549206 ; 8.05357e-005 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.135746 ; 0.036428 ; 3.72643 ; 0.0163752 ; 1.73244e-005 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.432337 ; 0.156514 ; 2.7623 ; 0.565248 ; 0.000893144 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00129652 ; 0.178207 ; 0.00727534 ; 0 ; -1.#IND ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.0125706 ; 0.172217 ; 0.0729928 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.17588 ; 0.200169 ; 0.87866 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.299764 ; 0.193159 ; 1.55191 ; 0.0655414 ; 9.58285e-005 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 2.78427 ; 0.34062 ; 8.17413 ; 0.0252058 ; 2.69663e-005 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 13.4987 ; 0.720231 ; 18.7422 ; 0.662795 ; 0.00102764 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : AffineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00124168 ; 0.00325561 ; 0.381399 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.020906 ; 0.00434589 ; 4.81051 ; 0.139402 ; 0.00282353 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.477654 ; 0.0115819 ; 41.2414 ; 0.422948 ; 0.000456192 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.815608 ; 0.0189576 ; 43.0227 ; 0.333389 ; 0.000486221 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 5.96874 ; 0.0845249 ; 70.6152 ; 0.580876 ; 0.000611953 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 21.821 ; 0.290951 ; 74.9988 ; 0.575281 ; 0.000882872 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00135875 ; 0.00296998 ; 0.457494 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.0212307 ; 0.00477266 ; 4.4484 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.436379 ; 0.00795245 ; 54.8735 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.801818 ; 0.0177779 ; 45.1019 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 6.06496 ; 0.0761065 ; 79.6903 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 21.9562 ; 0.301762 ; 72.76 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00117898 ; 0.172059 ; 0.00685217 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 2 ; 256x256 ; 0.0183747 ; 0.168813 ; 0.108846 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.629258 ; 0.211766 ; 2.97148 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 115x157x129 ; 1.02816 ; 0.205576 ; 5.00135 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 256x256x256 ; 8.85083 ; 0.470038 ; 18.83 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 3 ; 512x512x256 ; 34.2661 ; 1.11551 ; 30.7177 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : BSplineTransform
+ResampleImageFilter ; 1 ; 512 ; 0.00111508 ; 0.00399899 ; 0.278841 ; 1.75568 ; 0.108557 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.00183654 ; 0.0056479 ; 0.325172 ; 3.05691 ; 0.0620394 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.00939655 ; 0.00630522 ; 1.49028 ; 40.1706 ; 0.0432278 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0201616 ; 0.0128202 ; 1.57264 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.0846403 ; 0.0334468 ; 2.53059 ; 28.0873 ; 0.029503 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.260287 ; 0.164351 ; 1.58373 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00133705 ; 0.00324583 ; 0.411929 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0015614 ; 0.00636363 ; 0.245364 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0276825 ; 0.0105901 ; 2.61401 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.025806 ; 0.00930285 ; 2.77398 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.166928 ; 0.034636 ; 4.81948 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.458591 ; 0.114368 ; 4.00979 ; 0.183727 ; 0.000282131 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.000993013 ; 0.176761 ; 0.00561783 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0175378 ; 0.186779 ; 0.0938964 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.210177 ; 0.182995 ; 1.14854 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.359424 ; 0.201095 ; 1.78733 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 2.96047 ; 0.321605 ; 9.20529 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 12.0879 ; 0.733467 ; 16.4806 ; 0.230022 ; 0.000346896 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.000938177 ; 0.00305367 ; 0.30723 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.00183225 ; 0.0063777 ; 0.28729 ; 1.69626 ; 0.0344888 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0122392 ; 0.0105696 ; 1.15797 ; 1.10657 ; 0.00118937 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0167222 ; 0.0107534 ; 1.55506 ; 3.74098 ; 0.00546751 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.0984211 ; 0.038063 ; 2.58574 ; 2.37327 ; 0.00250319 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.348823 ; 0.168688 ; 2.06786 ; 7.9269 ; 0.0125182 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00103927 ; 0.00550485 ; 0.188791 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0021069 ; 0.00678325 ; 0.310604 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.0154476 ; 0.00587583 ; 2.62901 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.0247161 ; 0.0142941 ; 1.72911 ; 0.0549206 ; 8.05357e-005 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 0.151654 ; 0.0348659 ; 4.34964 ; 0.0163752 ; 1.73244e-005 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 0.486015 ; 0.140672 ; 3.45494 ; 0.565248 ; 0.000893144 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00192809 ; 0.174964 ; 0.0110199 ; 0 ; -1.#IND ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.016778 ; 0.173247 ; 0.0968446 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.177549 ; 0.183064 ; 0.969871 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.344717 ; 0.194585 ; 1.77155 ; 0.0655414 ; 9.58285e-005 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 2.69253 ; 0.326757 ; 8.24015 ; 0.0252058 ; 2.69663e-005 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 14.0128 ; 0.6884 ; 20.3556 ; 0.662795 ; 0.00102764 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00121045 ; 0.00532341 ; 0.227383 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0270333 ; 0.00616455 ; 4.38529 ; 0.139402 ; 0.00282353 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.520524 ; 0.0109291 ; 47.6273 ; 0.422948 ; 0.000456192 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.867039 ; 0.0201511 ; 43.0268 ; 0.333389 ; 0.000486221 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 7.95299 ; 0.0869517 ; 91.4644 ; 0.580876 ; 0.000611953 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 21.8317 ; 0.28547 ; 76.4765 ; 0.575281 ; 0.000882872 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00163436 ; 0.00603199 ; 0.270949 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0214972 ; 0.00691462 ; 3.10896 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.487696 ; 0.00854087 ; 57.1014 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.880283 ; 0.014663 ; 60.0344 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 6.03254 ; 0.0766187 ; 78.7346 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 22.0101 ; 0.294808 ; 74.6591 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.000941038 ; 0.172514 ; 0.00545485 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0324428 ; 0.178213 ; 0.182045 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.562199 ; 0.198995 ; 2.8252 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 1.06373 ; 0.211594 ; 5.02721 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 8.89933 ; 0.490119 ; 18.1575 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 34.7469 ; 1.10585 ; 31.421 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [BSplineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00146651 ; 0.00585961 ; 0.250275 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0212045 ; 0.0063715 ; 3.32802 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.453426 ; 0.0108428 ; 41.8182 ; 0.0618049 ; 6.67231e-005 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.856344 ; 0.0199244 ; 42.9797 ; 0.264811 ; 0.000387774 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 6.09055 ; 0.0918736 ; 66.2927 ; 0.319942 ; 0.000338237 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 22.0742 ; 0.314279 ; 70.2376 ; 0.573062 ; 0.000905033 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00114274 ; 0.00560141 ; 0.20401 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0225716 ; 0.00395775 ; 5.70313 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.48199 ; 0.0151513 ; 31.8119 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.759625 ; 0.0195189 ; 38.9175 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 6.15288 ; 0.0939174 ; 65.5138 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 22.412 ; 0.315036 ; 71.1412 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.0010767 ; 0.180174 ; 0.00597589 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0346608 ; 0.171082 ; 0.202597 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.574888 ; 0.201629 ; 2.85122 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 1.05452 ; 0.216275 ; 4.87582 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 8.7469 ; 0.501336 ; 17.4472 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 34.6242 ; 1.18884 ; 29.1244 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [AffineTransform, BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0163999 ; 0.00753355 ; 2.17691 ; 0 ; 0 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler2DTransform, Similarity2DTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.317797 ; 0.0169001 ; 18.8045 ; 0.828829 ; 0.000860969 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.595126 ; 0.0229075 ; 25.9795 ; 0.308388 ; 0.000461219 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 4.51643 ; 0.085547 ; 52.7947 ; 0.608361 ; 0.000621708 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 18.8443 ; 0.299688 ; 62.8798 ; 0.969816 ; 0.00143579 ; Yes ; 1 ; Interpolator : NearestNeighborInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0200291 ; 0.00430131 ; 4.6565 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler2DTransform, Similarity2DTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.334456 ; 0.0183687 ; 18.2079 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.703401 ; 0.0175107 ; 40.1699 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 4.74165 ; 0.0804284 ; 58.955 ; 0 ; 0 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 19.0054 ; 0.283623 ; 67.0095 ; 0.0406839 ; 6.0232e-005 ; Yes ; 1 ; Interpolator : LinearInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0296457 ; 0.179756 ; 0.164921 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler2DTransform, Similarity2DTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 0.487143 ; 0.191004 ; 2.55044 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 0.864417 ; 0.207715 ; 4.16156 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 7.01584 ; 0.41128 ; 17.0586 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 30.3644 ; 1.00245 ; 30.2904 ; 0.0603973 ; 9.09406e-005 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, AffineTransform, BSplineTransform, Euler3DTransform, Similarity3DTransform]
+ResampleImageFilter ; 1 ; 512 ; 0.00177455 ; 0.172861 ; 0.0102658 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
+ResampleImageFilter ; 2 ; 256x256 ; 0.0498161 ; 0.191618 ; 0.259976 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 100x100x100 ; 1.3599 ; 0.211574 ; 6.42754 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 115x157x129 ; 2.39264 ; 0.272494 ; 8.78054 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 256x256x256 ; 20.5769 ; 0.724545 ; 28.3998 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
+ResampleImageFilter ; 3 ; 512x512x256 ; 76.8286 ; 1.89825 ; 40.4734 ; 0 ; 0 ; Yes ; 1 ; Interpolator : BSplineInterpolateImageFunction, Transform : CompositeTransform [TranslationTransform, TranslationTransform, BSplineTransform, BSplineTransform, BSplineTransform]
