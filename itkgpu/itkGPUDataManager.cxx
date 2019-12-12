@@ -157,8 +157,6 @@ GPUDataManager::UpdateCPUBuffer()
     return;
   }
 
-  MutexHolderType holder( m_Mutex );
-
   if( m_IsCPUBufferDirty && m_GPUBuffer != NULL && m_CPUBuffer != NULL )
   {
 #if ( defined( _WIN32 ) && defined( _DEBUG ) ) || !defined( NDEBUG )
@@ -194,8 +192,6 @@ GPUDataManager::UpdateGPUBuffer()
   {
     return;
   }
-
-  MutexHolderType holder( m_Mutex );
 
   if( m_IsGPUBufferDirty && m_CPUBuffer != NULL && m_GPUBuffer != NULL )
   {

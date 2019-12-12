@@ -31,6 +31,7 @@
 #include <time.h>
 #include <fstream>
 #include <itksys/SystemTools.hxx>
+#include <math.h>
 
 #if defined( _WIN32 )
 #include <io.h>
@@ -49,6 +50,8 @@
 #include "itkOpenCLKernels.h"
 #include "itkOpenCLMacro.h"
 #include "TypeList.h"
+
+#include <math.h>
 
 //------------------------------------------------------------------------------
 // Definition of the OCLImageDims
@@ -218,8 +221,8 @@ ComputeRMSE( const CPUImageType * cpuImage, const GPUImageType * gpuImage,
     sumCPUSquared += cpu * cpu;
   }
 
-  rmse        = vcl_sqrt( rmse / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
-  rmsRelative = rmse / vcl_sqrt( sumCPUSquared / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
+  rmse        = sqrt( rmse / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
+  rmsRelative = rmse / sqrt( sumCPUSquared / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
 
   return rmse;
 } // end ComputeRMSE()
@@ -247,7 +250,7 @@ ComputeRMSE2( const CPUImageType * cpuImage, const GPUImageType * gpuImage,
       rmse += err * err;
     }
   }
-  rmse = vcl_sqrt( rmse / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
+  rmse = sqrt( rmse / cpuImage->GetLargestPossibleRegion().GetNumberOfPixels() );
   return rmse;
 } // end ComputeRMSE2()
 
@@ -380,8 +383,8 @@ ComputeRMSE( const CPUImageType * cpuImage, const GPUImageType * gpuImage,
     return 0.0;
   }
 
-  rmse        = vcl_sqrt( rmse / count );
-  rmsRelative = rmse / vcl_sqrt( sumCPUSquared / count );
+  rmse        = sqrt( rmse / count );
+  rmsRelative = rmse / sqrt( sumCPUSquared / count );
   return rmse;
 } // end ComputeRMSE()
 
@@ -416,7 +419,7 @@ ComputeRMSE2( const CPUImageType * cpuImage, const GPUImageType * gpuImage,
       ++count;
       TScalarType cpu = static_cast< TScalarType >( cit.Get() );
       TScalarType err = cpu - static_cast< TScalarType >( git.Get() );
-      if( vnl_math_abs( err ) > threshold )
+      if( abs( err ) > threshold )
       {
         rmse += err * err;
       }
@@ -430,8 +433,8 @@ ComputeRMSE2( const CPUImageType * cpuImage, const GPUImageType * gpuImage,
     return 0.0;
   }
 
-  rmse        = vcl_sqrt( rmse / count );
-  rmsRelative = rmse / vcl_sqrt( sumCPUSquared / count );
+  rmse        = sqrt( rmse / count );
+  rmsRelative = rmse / sqrt( sumCPUSquared / count );
   return rmse;
 } // end ComputeRMSE()
 

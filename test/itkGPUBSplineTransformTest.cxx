@@ -246,9 +246,9 @@ main( int argc, char * argv[] )
   parameters.skipGPU = parser->ArgumentExists( "-skipgpu" );
 
   // Threads.
-  unsigned int maximumNumberOfThreads = itk::MultiThreader::GetGlobalDefaultNumberOfThreads();
-  parser->GetCommandLineArgument( "-threads", maximumNumberOfThreads );
-  itk::MultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
+  //unsigned int maximumNumberOfThreads = itk::MultiThreader::GetGlobalDefaultNumberOfThreads();
+  //parser->GetCommandLineArgument( "-threads", maximumNumberOfThreads );
+  //itk::MultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
 
   // Check if the required arguments are given.
   if( retruntimes && parameters.runTimes < 1 )

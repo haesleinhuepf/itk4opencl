@@ -21,6 +21,8 @@
 #include "itkGPUShrinkImageFilter.h"
 #include "itkOpenCLUtil.h"
 
+#include <math.h>
+
 namespace itk
 {
 /**
@@ -118,13 +120,15 @@ GPUShrinkImageFilter< TInputImage, TOutputImage >
   // inputIndex = outputIndex * factorSize
   // is equivalent up to a fixed offset which we now compute
   OffsetValueType zeroOffset = 0;
-  for( std::size_t i = 0; i < InputImageDimension; i++ )
+  for (std::size_t i = 0; i < InputImageDimension; i++)
   {
-    offsetIndex[ i ] = inputIndex[ i ] - outputIndex[ i ] * shrinkFactors[ i ];
-    // It is plausible that due to small amounts of loss of numerical
-    // precision that the offset is negative, this would cause sampling
-    // out of out region, this is insurance against that possibility
-    offsetIndex[ i ] = vnl_math_max( zeroOffset, offsetIndex[ i ] );
+	  offsetIndex[i] = inputIndex[i] - outputIndex[i] * shrinkFactors[i];
+	  // It is plausible that due to small amounts of loss of numerical
+	  // precision that the offset is negative, this would cause sampling
+	  // out of out region, this is insurance against that possibility
+	  if (zeroOffset > offsetIndex[i]) {
+		  offsetIndex[i] = zeroOffset;
+	  }
   }
 
   const typename GPUOutputImage::SizeType inSize  = inPtr->GetLargestPossibleRegion().GetSize();
@@ -138,7 +142,7 @@ GPUShrinkImageFilter< TInputImage, TOutputImage >
   {
     // total # of threads
     globalSize[ i ] = localSize[ i ] * ( static_cast< unsigned int >(
-        vcl_ceil( static_cast< float >( outSize[ i ] )
+        ceil( static_cast< float >( outSize[ i ] )
         / static_cast< float >( localSize[ i ] ) ) ) );
   }
 

@@ -23,7 +23,7 @@
 namespace itk
 {
 // static variable initialization
-OpenCLLogger::Pointer OpenCLLogger::m_Instance = 0;
+OpenCLLogger::Pointer OpenCLLogger::m_Instance;
 
 //------------------------------------------------------------------------------
 // Return the single instance of the OpenCLLogger
@@ -146,26 +146,5 @@ OpenCLLogger::IsCreated() const
 {
   return this->m_Created;
 }
-
-
-//------------------------------------------------------------------------------
-void
-OpenCLLogger::Write( PriorityLevelType level, std::string const & content )
-{
-  if( this->m_Stream.IsNull() )
-  {
-    this->Initialize();
-  }
-
-  if( !this->IsCreated() )
-  {
-    return;
-  }
-
-  std::ostringstream message;
-  message << "OpenCL compile error: " << std::endl << content;
-  Superclass::Write( level, message.str().c_str() );
-}
-
 
 }

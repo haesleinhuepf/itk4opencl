@@ -61,6 +61,8 @@
 #include "itkGPUBSplineInterpolateImageFunctionFactory.h"
 #include "itkGPUBSplineDecompositionImageFilterFactory.h"
 
+#include "itkPlatformMultiThreader.h"
+
 //------------------------------------------------------------------------------
 std::string
 GetHelpString( void )
@@ -796,9 +798,9 @@ main( int argc, char * argv[] )
   parameters.skipGPU = parser->ArgumentExists( "-skipgpu" );
 
   // Threads.
-  unsigned int maximumNumberOfThreads = itk::MultiThreader::GetGlobalDefaultNumberOfThreads();
+  unsigned int maximumNumberOfThreads = itk::PlatformMultiThreader::GetGlobalDefaultNumberOfThreads();
   parser->GetCommandLineArgument( "-threads", maximumNumberOfThreads );
-  itk::MultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
+  itk::PlatformMultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
 
   // Check if the required arguments are given.
   if( retruntimes && parameters.runTimes < 1 )
@@ -1062,7 +1064,7 @@ ProcessImage( const Parameters & _parameters )
 
     // Create CPU Filter
     CPUFilter = CPUFilterType::New();
-    CPUFilter->SetNumberOfThreads( itk::MultiThreader::GetGlobalMaximumNumberOfThreads() );
+    CPUFilter->SetNumberOfThreads( itk::PlatformMultiThreader::GetGlobalMaximumNumberOfThreads() );
 
     CPUFilter->SetDefaultPixelValue( defaultValue );
     CPUFilter->SetOutputSpacing( outputSpacing );
@@ -1088,7 +1090,7 @@ ProcessImage( const Parameters & _parameters )
     // Print info
     if( !updateExceptionCPU )
     {
-      std::cout << "Testing " << itk::MultiThreader::GetGlobalMaximumNumberOfThreads() << " threads for CPU vs GPU"
+      std::cout << "Testing " << itk::PlatformMultiThreader::GetGlobalMaximumNumberOfThreads() << " threads for CPU vs GPU"
                 << std::endl;
       std::cout << "Interpolator type: " << CPUInterpolator->GetNameOfClass() << std::endl;
       std::cout << "Transform type: "
@@ -1521,7 +1523,7 @@ ProcessImage( const Parameters & _parameters )
     itk::WriteLog< InputImageType >(
       _parameters.logFileName, ImageDim, imageSize, RMSerror, RMSrelative,
       testPassed, updateExceptionGPU,
-      itk::MultiThreader::GetGlobalMaximumNumberOfThreads(),
+      itk::PlatformMultiThreader::GetGlobalMaximumNumberOfThreads(),
       _parameters.runTimes, filterName,
       cputimer.GetMean(), gputimer.GetMean(),
       comments );

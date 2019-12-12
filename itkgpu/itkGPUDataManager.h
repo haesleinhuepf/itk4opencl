@@ -38,8 +38,7 @@
 #include "itkObject.h"
 #include "itkDataObject.h"
 #include "itkObjectFactory.h"
-#include "itkSimpleFastMutexLock.h"
-#include "itkMutexLockHolder.h"
+#include  <mutex>
 
 #include "itkOpenCLContext.h"
 
@@ -81,7 +80,7 @@ public:
   /** Run-time type information (and related methods). */
   itkTypeMacro( GPUDataManager, Object );
 
-  typedef MutexLockHolder< SimpleFastMutexLock > MutexHolderType;
+  //typedef MutexLockHolder< SimpleFastMutexLock > MutexHolderType;
 
   /** total buffer size in bytes */
   void SetBufferSize( unsigned int num );
@@ -179,7 +178,7 @@ protected:
   bool m_GPUBufferLock;
 
   /** Mutex lock to prevent r/w hazard for multithreaded code */
-  SimpleFastMutexLock m_Mutex;
+  std::mutex m_Mutex;
 
 private:
 

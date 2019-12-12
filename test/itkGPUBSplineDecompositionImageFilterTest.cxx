@@ -33,6 +33,9 @@
 #include "itkGPUImageFactory.h"
 #include "itkGPUBSplineDecompositionImageFilterFactory.h"
 
+
+#include "itkPlatformMultiThreader.h"
+
 //------------------------------------------------------------------------------
 std::string
 GetHelpString( void )
@@ -171,9 +174,9 @@ main( int argc, char * argv[] )
   parameters.skipGPU = parser->ArgumentExists( "-skipgpu" );
 
   // Threads.
-  unsigned int maximumNumberOfThreads = itk::MultiThreader::GetGlobalDefaultNumberOfThreads();
-  parser->GetCommandLineArgument( "-threads", maximumNumberOfThreads );
-  itk::MultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
+ // unsigned int maximumNumberOfThreads = itk::MultiThreader::GetGlobalDefaultNumberOfThreads();
+ // parser->GetCommandLineArgument( "-threads", maximumNumberOfThreads );
+ // itk::MultiThreader::SetGlobalMaximumNumberOfThreads( maximumNumberOfThreads );
 
   // Determine image properties.
   std::string                 ComponentType = "short";
@@ -295,7 +298,7 @@ ProcessImage( const Parameters & _parameters )
     imageSize = CPUReader->GetOutput()->GetBufferedRegion().GetSize();
 
     CPUFilter = FilterType::New();
-    CPUFilter->SetNumberOfThreads( itk::MultiThreader::GetGlobalMaximumNumberOfThreads() );
+    CPUFilter->SetNumberOfThreads( itk::PlatformMultiThreader::GetGlobalMaximumNumberOfThreads() );
 
     cputimer.Start();
 
@@ -470,7 +473,7 @@ ProcessImage( const Parameters & _parameters )
     itk::WriteLog< InputImageType >(
       _parameters.logFileName, ImageDim, imageSize, RMSerror, RMSrelative,
       testPassed, updateExceptionGPU,
-      itk::MultiThreader::GetGlobalMaximumNumberOfThreads(),
+		itk::PlatformMultiThreader::GetGlobalMaximumNumberOfThreads(),
       _parameters.runTimes, filterName,
       cputimer.GetMean(), gputimer.GetMean(), comments );
   }
